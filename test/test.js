@@ -24,3 +24,26 @@ describe('getPlural function test', () => {
         expect(result).to.equal('Men');
     });
 });
+
+describe('getSingular function test', () => {
+  it('should return Boy', () => {
+      var result = index.getSingular('Boys');
+      expect(result).to.equal('Boy');
+  });
+  it('should return Girl', () => {
+      var result = index.getSingular('Girls');
+      expect(result).to.equal('Girl');
+  });
+  it('should return Goose', () => {
+      var result = index.getSingular('Geese');
+      expect(result).to.equal('Goose');
+  });
+  it('should return Toy', () => {
+      var result = index.getSingular('Toys');
+      expect(result).to.equal('Toy');
+  });
+  it('should return Man', () => {
+      var result = index.getSingular('Men');
+      expect(result).to.equal('Man');
+  });
+});
