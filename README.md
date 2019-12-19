@@ -18,11 +18,17 @@ yarn add plury
 
 ```javascript
 var plury = require('plury');
+
 var boys = plury.getPlural('Boy');
+console.log(boys);
+
+var thief = pluralise.getSingular('Thieves');
+console.log(thief);
 ```
 
 ```sh
 Output should be 'Boys'
+Output should be 'Thief'
 ```
 
 ### TypeScript
@@ -30,10 +36,12 @@ Output should be 'Boys'
 ```typescript
 import { getPlural } from 'plury';
 console.log(getPlural('Goose'));
+console.log(getSingular('Guns'));
 ```
 
 ```sh
 Output should be 'Geese'
+Output should be 'Guns'
 ```
 
 ### AMD
