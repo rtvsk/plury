@@ -1,0 +1,30 @@
+{
+  "name": "plury",
+  "version": "0.0.1",
+  "description": "Testing pluralize",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reutovsky/plury.git"
+  },
+  "author": "Dmitry Ivanov",
+  "license": "N/A",
+  "bugs": {
+    "url": "https://github.com/Reutovsky/plury/issues"
+  },
+  "homepage": "https://github.com/Reutovsky/plury#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
