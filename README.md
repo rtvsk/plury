@@ -41,7 +41,7 @@ console.log(getSingular('Guns'));
 
 ```sh
 Output should be 'Geese'
-Output should be 'Guns'
+Output should be 'Gun'
 ```
 
 ### AMD
