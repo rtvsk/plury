@@ -14,6 +14,13 @@
     "url": "git+https://github.com/Reutovsky/plury.git"
   },
   "author": "Dmitry Ivanov",
+  "keywords": [
+    "plury",
+    "pluralize",
+    "pluralise",
+    "singular",
+    "react"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Reutovsky/plury/issues"
