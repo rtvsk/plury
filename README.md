@@ -2,7 +2,7 @@
 
 # Plury
 
-A Node.js module that returns the plural form of any noun.
+A module that returns plural or singular form of any noun(-s).
 Full TypeScript support.
 
 [![Build Status](https://travis-ci.org/Reutovsky/plury.svg?branch=master)](https://travis-ci.org/Reutovsky/plury)
