@@ -1,4 +1,4 @@
-![Plury Header Logo](https://github.com/Reutovsky/plury/blob/master/media/plury.png)
+![Header Logo](https://res.cloudinary.com/codemecodeyou/image/upload/v1576844510/codemecodeyou/oc8kdeeoknrnj9o4z2wm.png)
 
 # Plury
 
