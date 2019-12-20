@@ -5,7 +5,7 @@ import * as pluralize from 'pluralize';
 * @Param {string}
 * @Return {string}
 */
-export function getPlural (str: any) : string {
+export function getPlural(str: string): string {
   return pluralize.plural(str);
 }
 
@@ -14,6 +14,6 @@ export function getPlural (str: any) : string {
  * @Param {string}
  * @Return {string}
  */
-export function getSingular (str: string) : string {
+export function getSingular(str: string): string {
 	return pluralize.singular(str)
 }

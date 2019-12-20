@@ -1,14 +1,15 @@
 [![Build Status](https://travis-ci.org/Reutovsky/plury.svg?branch=master)](https://travis-ci.org/Reutovsky/plury)
 [![Coverage Status](https://coveralls.io/repos/github/Reutovsky/plury/badge.svg?branch=master)](https://coveralls.io/github/Reutovsky/plury?branch=master)
 
-# plury
+# Plury
 
-A Node.js module that returns the plural form of any noun
+A Node.js module that returns the plural form of any noun.
+Full TypeScript support.
 
 ## Installation
 
 ```sh
-npm install plury --save
+npm i plury
 yarn add plury
 ```
 
@@ -16,27 +17,22 @@ yarn add plury
 
 ### Javascript
 
-```javascript
-var plury = require('plury');
+```JavaScript
+import { getPlural, getSingular } from 'plury';
 
-var boys = plury.getPlural('Boy');
-console.log(boys);
+const boys = getPlural('Boy');
+console.log(boys); // => 'Boys'
 
-var thief = pluralise.getSingular('Thieves');
-console.log(thief);
-```
-
-```sh
-Output should be 'Boys'
-Output should be 'Thief'
+const thief = getSingular('Thieves');
+console.log(thief); // => 'Thief'
 ```
 
 ### TypeScript
 
-```typescript
-import { getPlural } from 'plury';
-console.log(getPlural('Goose'));
-console.log(getSingular('Guns'));
+```TypeScript
+import { getPlural, getSingular } from 'plury';
+console.log(getPlural('Goose')); // => 'Geese'
+console.log(getSingular('Guns')); // => 'Gun'
 ```
 
 ```sh
