@@ -17,7 +17,7 @@ yarn add plury
 
 ### Javascript
 
-```JavaScript
+```javascript
 import { getPlural, getSingular } from 'plury';
 
 const boys = getPlural('Boy');
@@ -29,7 +29,7 @@ console.log(thief); // => 'Thief'
 
 ### TypeScript
 
-```TypeScript
+```typescript
 import { getPlural, getSingular } from 'plury';
 console.log(getPlural('Goose')); // => 'Geese'
 console.log(getSingular('Guns')); // => 'Gun'
