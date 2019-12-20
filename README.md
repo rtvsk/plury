@@ -4,6 +4,7 @@
 
 A Node.js module that returns the plural form of any noun.
 Full TypeScript support.
+
 [![Build Status](https://travis-ci.org/Reutovsky/plury.svg?branch=master)](https://travis-ci.org/Reutovsky/plury)
 [![Coverage Status](https://coveralls.io/repos/github/Reutovsky/plury/badge.svg?branch=master)](https://coveralls.io/github/Reutovsky/plury?branch=master)
 
