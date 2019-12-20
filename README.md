@@ -33,21 +33,9 @@ console.log(thief); // => 'Thief'
 
 ```typescript
 import { getPlural, getSingular } from 'plury';
+
 console.log(getPlural('Goose')); // => 'Geese'
 console.log(getSingular('Guns')); // => 'Gun'
-```
-
-```sh
-Output should be 'Geese'
-Output should be 'Gun'
-```
-
-### AMD
-
-```javascript
-define(function(require, exports, module) {
-  var plury = require('plury');
-});
 ```
 
 ## Test
